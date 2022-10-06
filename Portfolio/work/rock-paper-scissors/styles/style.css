@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #468fa5;
+}
+
+h2 {
+  color: black;
+  background-color: beige;
+}
+
+span {
+  color: #aa342c;
+}
+/*# sourceMappingURL=style.css.map */
