@@ -1,18 +1,41 @@
+:root {
+  --main_color1: rgb(96, 225, 182);
+  --text_color: rgb(174, 49, 11);
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #468fa5;
+  background-color: var(--main_color1);
 }
 
 h2 {
-  color: black;
-  background-color: beige;
+  color: rgb(31, 27, 27);
+  background-color: rgb(247, 247, 186);
 }
 
 span {
-  color: #aa342c;
+  color: var(--text_color);
 }
 /*# sourceMappingURL=style.css.map */
+.section {
+  text-align: center;
+  margin-top: 12rem;
+  font-size: 1.2rem;
+}
+
+.section > button {
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
