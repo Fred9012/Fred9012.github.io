@@ -16,22 +16,23 @@ body {
 header {
   text-align: center;
   color: white;
-  background-color: black;
+  background-color: rgba(25, 44, 85, 0.298);
 }
 
 main {
   background-color: rgb(164, 240, 160);
-  position: relative;
   top: 5rem;
   text-align: center;
   border: 1px solid black;
-  vertical-align: baseline;
   font-size: 1.3rem;
+  align-self: center;
 }
 
 a {
-  display: block;
   text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(80, 163, 210, 0.802);
 }
 a:hover {
   color: aliceblue;
