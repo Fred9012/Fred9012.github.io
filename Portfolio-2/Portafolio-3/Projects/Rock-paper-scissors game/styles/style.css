@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+h2 {
+  color: black;
+  background-color: beige;
+}
+body {
+  background-color: aquamarine;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+}
+
+span {
+  color: #179601;
+}
+
+.buttons {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.buttons:hover {
+  color: antiquewhite;
+  background-color: darkslategray;
+  cursor: pointer;
+}
+
+.choice-section {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */ ;
